@@ -9,8 +9,8 @@ import LoginPage from "./pages/login";
 import ForgotPassword from "./pages/forgotPassword";
 import AcademicPage from "./Modules/Academic/index";
 import ValidateAuth from "./helper/validateauth";
-import Purchase from "./Modules/Purchase/Purchase";
-import Inbox from "./Modules/Purchase/pages/Inbox";
+import Inbox from "./Modules/Purchase/Inbox";
+import StockEntry from "./Modules/Purchase/pages/StockEntry";
 
 export default function App() {
   const location = useLocation();
@@ -38,7 +38,7 @@ export default function App() {
           path="/purchase"
           element={
             <Layout>
-              <Purchase />
+              <Inbox />
             </Layout>
           }
         />
@@ -46,7 +46,7 @@ export default function App() {
           path="/inbox"
           element={
             <Layout>
-              <Inbox />
+              <StockEntry />
             </Layout>
           }
         />
