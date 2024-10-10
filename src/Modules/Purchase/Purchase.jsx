@@ -84,7 +84,7 @@ function Purchase() {
           </div>
 
           <div>
-            {/* <label htmlFor="remarks" className="block mb-2">
+            <label htmlFor="remarks" className="block mb-2">
               Remarks:
             </label>
             <input
@@ -111,7 +111,7 @@ function Purchase() {
               id="file"
               type="file"
               className="w-full border p-2 rounded mb-4"
-            /> */}
+            />
 
             <button className="bg-blue-500 text-white p-2 rounded mr-2">
               Send
