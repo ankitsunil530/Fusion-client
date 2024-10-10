@@ -134,6 +134,10 @@ function Purchase() {
             {/* <label htmlFor="remarks" className="block mb-2">
               <strong>Remarks:</strong>
               
+=======
+            <label htmlFor="remarks" className="block mb-2">
+              Remarks:
+>>>>>>> 1ed29f321fcca3e6ccae936ded41148b90c5b341
             </label>
             <input
               id="remarks"
