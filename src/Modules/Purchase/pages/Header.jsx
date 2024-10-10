@@ -11,7 +11,7 @@ function Header() {
       <div className="flex flex-row font-bold space-x-1">
         <div className="">Purchase And Store</div>
         <div className="">
-          <FaAngleRight />
+          <FaAngleRight className="text-xl" />
         </div>
 
         <div className="">Inbox</div>
@@ -19,7 +19,7 @@ function Header() {
 
       <div className="flex flex-row font-bold tracking-wide space-x-1 my-2">
         <div className="">
-          <AiOutlineLeftCircle />
+          <AiOutlineLeftCircle className="text-xl" />
         </div>
         <div>
           <NavLink>File An Indent</NavLink>
@@ -31,7 +31,7 @@ function Header() {
         </div>
 
         <div>
-          <AiOutlineRightCircle />
+          <AiOutlineRightCircle className="text-xl" />
         </div>
       </div>
     </div>
